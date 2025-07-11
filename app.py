@@ -29,7 +29,7 @@ def predict(image):
         return "🤔 Imagen menos de 60% confianza. Sube otra foto con mejor iluminación y enfoque."
 
     price = price_map[label]
-    return f"💇‍♀️ Estilo Detectado: {label}\n🔍 Confianza: {confidence:.2%}\n💰 Precio Aproximado: {price}"
+    return f"💇‍♀️ Estilo Detectado: {label}\n🔍 Confianza: {confidence:.2%}\n💰 Precio Aprox: {price}"
 
 examples = [
     ["short_example.jpg"],
